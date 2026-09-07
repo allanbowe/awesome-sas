@@ -200,6 +200,7 @@ These links are a compact starting point for writing cleaner, safer, and easier-
 
 ## Testing and Quality
 
+- [saspytest](https://github.com/awesome-sas/saspytest) - Unit Testing framework build on saspy and pytest. Works with SAS9 and SAS Viya. 
 - [SASUnit](https://github.com/HMS-Analytical-Software/SASUnit) - Mature unit-testing framework for SAS programs, with assertions, coverage, batch execution, and generated test documentation.
 - [FUTS (outdated)](https://github.com/ocd-jacobs/futs) - FUTS (Framework for Unit Testing SAS programs). Has not seen any updates for a very long time.
 - [SAS Programming Community](https://communities.sas.com/t5/SAS-Programming/bd-p/programming) - Good place to find edge cases, log diagnostics, and real-world failure patterns worth testing.
