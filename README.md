@@ -197,9 +197,11 @@ These links are a compact starting point for writing cleaner, safer, and easier-
 - [UCLA OARC SAS Library](https://stats.oarc.ucla.edu/sas/library/) - Dense, preserved collection of SAS tutorials, notes, and linked papers.
 - [SAS Tips from the Community](https://communities.sas.com/t5/SAS-Tips-from-the-Community/bd-p/sastips) - Small, practical community tips.
 - [Research and Science from SAS](https://communities.sas.com/t5/Research-and-Science-from-SAS/tkb-p/science) - Research-oriented articles and technical material.
+- [Raw SAS](https://rawsas.com/) - Allan Bowe's SAS tips and tricks blog, covering practical programming and app development, plus a transcribed archive of the historical SAS Communications newsletter.
 
 ## Testing and Quality
 
+- [sasjs test](https://cli.sasjs.io/test/) - Extensive testing framework for SAS Jobs, Services and Macros, driven from the SASjs CLI. Each test is compiled and deployed as a web service, so every test runs in its own isolated SAS session, with ready-made assertion macros (columns, column values, observations, scope leakage), coverage reporting per Job/Service/Macro, and results exported as CSV, JSON, JUnit XML and LCOV.
 - [saspytest](https://github.com/awesome-sas/saspytest) - Unit Testing framework build on saspy and pytest. Works with SAS9 and SAS Viya. 
 - [SASUnit](https://github.com/HMS-Analytical-Software/SASUnit) - Mature unit-testing framework for SAS programs, with assertions, coverage, batch execution, and generated test documentation.
 - [FUTS (outdated)](https://github.com/ocd-jacobs/futs) - FUTS (Framework for Unit Testing SAS programs). Has not seen any updates for a very long time.
@@ -230,6 +232,8 @@ These links are a compact starting point for writing cleaner, safer, and easier-
 
 Stored processes are the classic SAS 9 web-application pattern. In SAS Viya, the successor is the Job Execution Service (JES), where jobs replace stored processes for web-facing execution.
 
+- [Data Controller for SAS](https://datacontroller.io/) - Production web application built on this pattern: business users edit IT-owned source tables, secured by a review/approve workflow, validation, and a full audit trail.
+- [Macro Dash](https://github.com/sasjs/macro-dash) - Playable game that doubles as a working demonstration of data-powered web apps on SAS: the HTML/JS frontend is streamed from SAS with no separate web tier, the backend services are written in SAS, and one codebase deploys to Viya, SAS 9 EBI or SASjs Server.
 - [Jobs: Stored processes in Viya](https://blogs.sas.com/content/sgf/2020/02/28/jobs-stored-processes-in-viya/) - SAS blog post explaining the stored-process-to-Jobs mapping in Viya.
 - [Migration of Stored Processes to SAS Viya Jobs](https://communities.sas.com/t5/SAS-Communities-Library/Migration-of-Stored-Processes-to-SAS-Viya-Jobs/ta-p/821103) - Community library article with migration guidance from SAS 9 stored processes to Viya jobs.
 - [Unlocking Performance: Compute Tasks are The New Fast Execution Path for Stored Processes in SAS Viya](https://communities.sas.com/t5/SAS-Communities-Library/Compute-Tasks-are-The-New-Fast-Execution-Path-for-Stored/ta-p/976582) - Performance-oriented writeup on faster execution paths for stored-process-style workloads in Viya.
